@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TASK 5</string>
+    <string name="customer">Customers Name      : </string>
+    <string name="code_item">Item Code : SGS/IPX/AV4 </string>
+    <string name="total_item">Total Item        : </string>
+    <string name="membershiptype">MembershipType</string>
+    <string name="gold">Gold</string>
+    <string name="silver">Silver</string>
+    <string name="normal">Normal</string>
+    <string name="diskon">Purchases Above 10 Million Rupiah</string>
+    <string name="potongan">Will Get Discount of 100 Thousand Rupiah</string>
+    <string name="detailbarang">Item Purchase Details</string>
+    <string name="welcome">Welcome To Electronic Store</string>
+    <string name="Membership">Membership :</string>
+    <string name="kode">Code of Item        : </string>
+    <string name="name_item">Name Of Item       : </string>
+    <string name="total_harga">Total Price      : </string>
+    <string name="disc">Discount        : </string>
+    <string name="total_bayar">Total Payment        : </string>
+    <string name="thanks">Thanks For Coming To</string>
+    <string name="store">Electronic Store</string>
+    <string name="hope">Hope To See You Again</string>
+    <string name="share">Share</string>
+
+</resources>

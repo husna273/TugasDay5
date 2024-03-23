@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:id="@+id/quiz"
+    android:background="@drawable/riwayat"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tiinputname"
+        android:layout_marginTop="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etinputname"
+        android:ems="17"
+        android:hint="@string/customer"
+        android:inputType="textPersonName"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/tiinputname"
+        android:minHeight="48dp"
+        android:drawableStart="@drawable/baseline_boy_24"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:textColor="#F4F6F8"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ticodeitem"
+        android:layout_below="@+id/tiinputname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etkodeitem"
+        android:hint="@string/code_item"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:padding="8dp"
+        android:layout_below="@+id/etinputname"
+        android:drawableStart="@drawable/baseline_add_shopping_cart_24"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:inputType="text"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tijmlhitem"
+        android:layout_below="@+id/ticodeitem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etjmlbarang"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:padding="8dp"
+        android:layout_below="@+id/etcodeitem"
+        android:drawableStart="@drawable/baseline_123_24"
+
+        android:hint="@string/total_item"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:inputType="number"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RadioGroup
+        android:id="@+id/rgmembership"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:hint="@string/membershiptype"
+        android:layout_below="@id/tijmlhitem"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <RadioButton
+            android:id="@+id/gold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/gold" />
+        <RadioButton
+            android:id="@+id/silver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/silver" />
+        <RadioButton
+            android:id="@+id/normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/normal" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvdiskon"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="80dp"
+        android:textColor="#F3F8F8"
+        android:textStyle="italic"
+        android:layout_below="@id/rgmembership"
+        android:hint="@string/diskon"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvpotongan"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#E9F1F1"
+        android:textStyle="italic"
+        android:hint="@string/potongan"
+        android:layout_below="@id/tvdiskon"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvpotongan"
+        android:layout_marginTop="16dp"
+        android:hint="@string/detailbarang"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:text="" />
+
+
+    <TextView
+        android:id="@+id/tvNamaBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvHargaBarang"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="Rp -,--"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvTotalHarga"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="Rp -,--"
+        android:textSize="16sp"/>
+
+
+</RelativeLayout>

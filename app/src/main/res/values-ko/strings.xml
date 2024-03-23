@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">작업 5</string>
+    <string name="customer">고객의 이름         : </string>
+    <string name="code_item">아이템 코드 : SGS/IPX/AV4</string>
+    <string name="total_item">상품의 양         : </string>
+    <string name="membershiptype">회원 유형</string>
+    <string name="gold">금</string>
+    <string name="silver">은</string>
+    <string name="normal">정상</string>
+    <string name="diskon">1,000만 루피아 이상 구매</string>
+    <string name="potongan">100만 루피아 할인해드립니다 </string>
+    <string name="detailbarang">아이템 구매 내역</string>
+    <string name="welcome">가게에 오신 것을 환영합니다</string>
+    <string name="Membership">회원 :</string>
+    <string name="kode">품목 코드           : </string>
+    <string name="name_item">항목 이름      : </string>
+    <string name="total_harga">총 가격         : </string>
+    <string name="disc">할인      :</string>
+    <string name="total_bayar">총 결제금액       : </string>
+    <string name="thanks">와주셔서 감사합니다</string>
+    <string name="store">전자 기기 점</string>
+    <string name="hope">다시 보길 바란다</string>
+    <string name="share">공유하다</string>
+
+
+</resources>

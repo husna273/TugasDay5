@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">المهمة ٥</string>
+    <string name="customer">اسم العميل      : </string>
+    <string name="code_item">رمز الصنف : SGS/IPX/AV4</string>
+    <string name="total_item"> كمية البضائع         : </string>
+    <string name="membershiptype">MembershipType</string>
+    <string name="gold">ذهب</string>
+    <string name="silver">فضة</string>
+    <string name="normal">طبيعي</string>
+    <string name="diskon">مشتريات فوق ١٠ مليون روبية</string>
+    <string name="potongan">سوف تحصل على خصم قدره ١٠٠ ألف روبية </string>
+    <string name="detailbarang">تفاصيل شراء السلعة</string>
+    <string name="welcome">مرحبا بكم في المتجر الالكتروني</string>
+    <string name="Membership">عضوية : </string>
+    <string name="kode">رمز السلعة          : </string>
+    <string name="name_item">اسم العنصر      : </string>
+    <string name="total_harga">السعر الإجمالي :</string>
+    <string name="disc">تخفيض         : </string>
+    <string name="total_bayar">المبلغ الإجمالي     : </string>
+    <string name="thanks">شكرا على حضوركم</string>
+    <string name="store">متجر الكتروني</string>
+    <string name="hope">نأمل أن نراكم مرة أخرى</string>
+    <string name="share">يشارك</string>
+
+
+</resources>

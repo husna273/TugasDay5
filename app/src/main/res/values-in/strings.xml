@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kuis 1</string>
+    <string name="customer">Nama Pelanggan              : </string>
+    <string name="code_item">Kode Barang : SGS/IPX/AV4</string>
+    <string name="total_item">Jumlah Barang                : </string>
+    <string name="membershiptype">Tipe Member</string>
+    <string name="gold">Emas</string>
+    <string name="silver">Perak</string>
+    <string name="normal">Biasa</string>
+    <string name="diskon">Pembelian Diatas 10 juta Rupiah</string>
+    <string name="potongan">Akan Mendapatkan Potongan 100 Ribu Rupiah</string>
+    <string name="detailbarang">Detail Pembelian Barang</string>
+    <string name="welcome">Selamat Datang di Toko Elektronik</string>
+    <string name="Membership">Keanggotaan : </string>
+    <string name="kode">Kode Barang                 : </string>
+    <string name="name_item">Nama Barang            : </string>
+    <string name="total_harga">Total Harga          : </string>
+    <string name="disc">Diskon          : </string>
+    <string name="total_bayar">Total Bayar          : </string>
+    <string name="thanks">Terima kasih sudah datang</string>
+    <string name="store">Toko elektronik</string>
+    <string name="hope">Semoga bertemu denganmu lagi</string>
+    <string name="share">Bagikan</string>
+
+
+</resources>
